@@ -41,14 +41,8 @@ async def _(event):
     elif input_str == "moon":
         await event.edit(input_str)
         animation_chars = [
-            "🌕",
-            "🌖",
-            "🌗",
-            "🌘",
-            "🌑",
-            "🌒",
-            "🌓",
-            "🌔"
+            "🌕🌖🌗🌘🌑🌒🌓🌔",
+            "🌔🌓🌒🌑🌘🌗🌖🌕"
         ]
         for i in animation_ttl:
             await asyncio.sleep(animation_interval)
