@@ -26,7 +26,7 @@ async def _(event):
         s_help_string = ""
     help_string = """@MiDivertoConPoco
 Python {}
-Telethon {}
+Cookie Power
 UserBot Forked from https://github.com/cookies9011/uniborg""".format(
         sys.version,
         __version__
