@@ -11,10 +11,4 @@ async def _(event):
     animation_ttl = range(0, 16)
     input_str = event.pattern_match.group(1)
     if input_str == "netflix":
-        await event.edit("<b>ZELOS & OXY REFILLING</b>
-
-✅ <b>Netflix</b>, 1 mese di durata garantita, nessun tipo di blocco!
-
-📑 Prezzi bassissimi, e grandi quantita al giorno, massimo ordine di 200 netflix al giorno!
-
-👨‍💻 Per altre <b>info</b> contattare @ListaDeiDesideri o @Zelos00")
+        await event.edit("<b>ZELOS & OXY REFILLING</b>/n/n✅ <b>Netflix</b>, 1 mese di durata garantita, nessun tipo di blocco!/n/n📑 Prezzi bassissimi, e grandi quantita al giorno, massimo ordine di 200 netflix al giorno!/n/n👨‍💻 Per altre <b>info</b> contattare @ListaDeiDesideri o @Zelos00")
